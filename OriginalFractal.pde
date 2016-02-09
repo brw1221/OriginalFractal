@@ -20,7 +20,6 @@ public void fractal(int x, int y, int size)
 		stroke(32,178,170);
 		fractal(x+10,y+10,size-90);
 		ellipse(x,y,size,size);
-		System.out.println(size);
 	}
 	else
 	{
